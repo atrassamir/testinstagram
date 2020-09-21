@@ -1,0 +1,183 @@
+@font-face{font-family:iranyekan;font-style:normal;font-weight:bold;src:url('../fonts/eot/iranyekanwebbold.eot');src:url('../fonts/eot/iranyekanwebbold.eot?#iefix') format('embedded-opentype'),url('../fonts/woff/iranyekanwebbold.woff') format('woff'),url('../fonts/ttf/iranyekanwebbold.ttf') format('truetype');}@font-face{font-family:iranyekan;font-style:normal;font-weight:100;src:url('../fonts/eot/iranyekanwebthin.eot');src:url('../fonts/eot/iranyekanwebthin.eot?#iefix') format('embedded-opentype'),url('../fonts/woff/iranyekanwebthin.woff') format('woff'),url('../fonts/ttf/iranyekanwebthin.ttf') format('truetype');}@font-face{font-family:iranyekan;font-style:normal;font-weight:300;src:url('../fonts/eot/iranyekanweblight.eot');src:url('../fonts/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'),url('../fonts/woff/iranyekanweblight.woff') format('woff'),url('../fonts/ttf/iranyekanweblight.ttf') format('truetype');}@font-face{font-family:iranyekan;font-style:normal;font-weight:normal;src:url('../fonts/eot/iranyekanwebregular.eot');src:url('../fonts/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),url('../fonts/woff/iranyekanwebregular.woff') format('woff'),url('../fonts/ttf/iranyekanwebregular.ttf') format('truetype');}@font-face{font-family:iranyekan;font-style:normal;font-weight:500;src:url('../fonts/eot/iranyekanwebmedium.eot');src:url('../fonts/eot/iranyekanwebmedium.eot?#iefix') format('embedded-opentype'),url('../fonts/woff/iranyekanwebmedium.woff') format('woff'),url('../fonts/ttf/iranyekanwebmedium.ttf') format('truetype');}@font-face{font-family:iranyekan;font-style:normal;font-weight:800;src:url('../fonts/eot/iranyekanwebextrabold.eot');src:url('../fonts/eot/iranyekanwebextrabold.eot?#iefix') format('embedded-opentype'),url('../fonts/woff/iranyekanwebextrabold.woff') format('woff'),url('../fonts/ttf/iranyekanwebextrabold.ttf') format('truetype');}@font-face{font-family:iranyekan;font-style:normal;font-weight:900;src:url('../fonts/eot/iranyekanwebblack.eot');src:url('../fonts/eot/iranyekanwebblack.eot?#iefix') format('embedded-opentype'),url('../fonts/woff/iranyekanwebblack.woff') format('woff'),url('../fonts/ttf/iranyekanwebblack.ttf') format('truetype');}@font-face{font-family:iranyekan;font-style:normal;font-weight:950;src:url('../fonts/eot/iranyekanwebextrablack.eot');src:url('../fonts/eot/iranyekanwebextrablack.eot?#iefix') format('embedded-opentype'),url('../fonts/woff/iranyekanwebextrablack.woff') format('woff'),url('../fonts/ttf/iranyekanwebextrablack.ttf') format('truetype');}
+*{
+    font-family: iranyekan;
+    margin: 0;
+    padding: 0;
+    /* direction: rtl; */
+    /* word-spacing: -10px; */
+}
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.main{
+    width: 1920px;
+    height: 1080px;
+    background: url(../media/cd1.png);
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+}
+.top{
+    height: 104px;
+    /* background-color: #000000cf; */
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+}
+.right{
+    width: 515px;
+    position: absolute;
+    left: 40px;
+    top: 185px;
+}
+.left{
+    position: absolute;
+    right: 40px;
+    top: 185px;
+}
+.lefttop{
+    border: 0 solid #f00;
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+}
+
+.top .logo{
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 10px;
+    /* overflow: hidden; */
+    width: 351px;
+    display: inline-block;
+}
+.top .logo img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.top .time{
+    text-align: center;
+    float: left;
+    display: inline-block;
+}
+.top .time h4{
+    display: inline-block;
+    font-size: 65px;
+    line-height: 110%;
+    color: #c61a54;
+    position: relative;
+}
+.top .time h5{
+    position: absolute;
+    color: #888888;
+    bottom: 0px;
+    left: 5px;
+    font-size: 21px;
+    display: inline-block;
+}
+.top .weatherday{
+    text-align: center;
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 240px;
+    top: -10px;
+    left: 25px;
+}
+.top .weatherday .imageweather{
+    width: 128px;
+    /* position: absolute; */
+    display: inline-block;
+    float: right;
+}
+.weatherday h4.topw{
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 128px;
+    font-size: 25px;
+    color: #7d7d7d;
+}
+.weatherday h4.bottomw{
+    display: inline-block;
+    position: absolute;
+    bottom: 22px;
+    right: 128px;
+    font-size: 31px;
+    color: #7d7d7d;
+}
+.rightbottom{
+    height: 714px;
+    background: #d0d0d0;
+    border: 3px solid #656565;
+}
+.rightbottom .title{
+    background: #c61a54;
+    height: 55px;
+}
+.rightbottom .title h3{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 800;
+    position: absolute;
+    right: 25px;
+    top: 6px;
+}
+.bottom{
+    height: 70px;
+    background-color: #c61a54;
+    border: 3px solid #656565;
+    border-left: 0px;
+    border-right: 0px;
+    position: absolute;
+    bottom: 55px;
+    left: 0px;
+    right: 0px;
+    direction: rtl;
+}
+.bottom .linenews{
+    width: 100%;
+    height: 100%;
+}
+.bottom .linenews .contentnews{
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.bottom .linenews .contentnews p{
+    font-size: 24px;
+    padding: 12px 5px;
+    line-height: 120%;
+}
+.messagepm{
+    text-align: right;
+    direction: rtl;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+    margin: 15px 30px;
+    border-bottom: 1px solid #c61a54;
+}
+.messagepm h4{
+    color: #c61a54;
+    font-size: 32px;
+}
+.messagepm h5{
+    color: #808080;
+    font-size: 15px;
+    margin-top: -3px;
+}
+.messagepm p{
+    margin: 8px 0 0 0;
+    font-size: 16px;
+    color: black;
+}
